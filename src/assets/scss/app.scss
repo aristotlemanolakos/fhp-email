@@ -11,7 +11,6 @@ td.columns, td.column, th.columns, th.column {padding-bottom: 0!important;}
 }
 
 .white-bg * {
-  background-color: #fff;
 }
 
 .white-bg th {
@@ -19,17 +18,30 @@ td.columns, td.column, th.columns, th.column {padding-bottom: 0!important;}
 }
 
 body * {
-  background-color: $bg-color;
+}
 
+.black-bg {
+  background-color: #000000 !important;
+}
+
+.top-section {
+}
+
+.top-blurb {
+  .wrapper-inner {
+    padding: 40px;
+  }
+  * {
+    color: white;
+  }
 }
 
 .white-on-black {
-  font-family: 'Titillium Web', Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 16px;
   color:  #fff;
   margin-top: 5px;
 }
-
 
 .zero-vert-paddings {
   padding-top: 0px !important;
@@ -37,15 +49,23 @@ body * {
 }
 
 .artist-title {
-  font-family: 'Titillium Web', Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 20px;
   font-weight: bold;
 
 }
 
+.artist {
+  background: white;
+  border: 1px solid red;
+  .inner {
+    background: white;
+    padding: 10px;
+  }
+}
+
 .artist-text {
-  font-family: 'Titillium Web', Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 14px;
   color: #808080;
-
 }

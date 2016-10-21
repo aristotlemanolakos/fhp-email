@@ -1,0 +1,18 @@
+{
+  "aws": {
+    "region": "us-west-2",
+    "accessKeyId": "AKIAJDQSZ5EC3YIVBZ7Q",
+    "secretAccessKey": "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",
+    "params": {
+      "Bucket": "codegophers/fhp/assets/img"
+    },
+
+    "url": "https://codegophers.s3.amazonaws.com/fhp/assets/img"
+  },
+  "litmus": {
+    "username": "alexey.polionov@gmail.com",
+    "password": "tartu2016123",
+    "url": "https://marcellortutay.litmus.com",
+    "applications": [ "ol2003", "ol2007", "ol2010", "ol2011", "ol2013", "chromegmailnew", "chromeyahoo", "appmail9", "iphone5s", "ipad", "android4", "androidgmailapp" ]
+  }
+}
