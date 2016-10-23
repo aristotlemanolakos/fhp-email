@@ -8,14 +8,31 @@ td.columns, td.column, th.columns, th.column {
   padding-bottom: 0 !important;
 }
 
-.view-in-browser{
+.view-in-browser {
   margin-top: 30px;
 }
+
 .dark-bg {
   background-color: $dark-color;
 }
 
-.white-bg * {
+.logo-title {
+
+  font-family: 'Titillium Web';
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  line-height: 20px;
+
+}
+
+.logo-date {
+
+  font-family: 'Titillium Web';
+  font-size: 14px;
+  margin-top: 5px;
+
 }
 
 .white-bg th {
@@ -61,7 +78,7 @@ body {
 }
 
 .artist-title-mobile {
-  margin: 20px 0;
+  margin: 20px 0px;
 }
 
 .more-btn-white {
@@ -74,6 +91,9 @@ body {
     background: white;
     padding: 10px;
   }
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    padding: 0 40px;
+  }
 }
 
 .wrapper-inner {
@@ -84,6 +104,9 @@ body {
   font-family: Helvetica, sans-serif;
   font-size: 14px;
   color: #808080;
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    padding: 0 40px;
+  }
 
 }
 
@@ -92,11 +115,20 @@ body {
   font-size: 14px;
   margin-right: 10%;
   margin-left: 10%;
-  color:#000000;
+  color: #000000;
 }
-.bottom-text-light a,.bottom-text-light div{
+
+.bottom-text-light a, .bottom-text-light div {
   color: #a9a9a9;
 }
-.image-promo{
-  width: 100%!important;
+
+.image-promo {
+  width: 100% !important;
+}
+
+.social-share img {
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    height: 30px!important;
+    width: 30px!important;
+  }
 }
