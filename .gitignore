@@ -1,12 +1,7 @@
-<<<<<<< HEAD
 .idea
-=======
 .DS_Store
 node_modules
 npm-debug.log
 bower_components
-dist
 .sass-cache
 .awspublish*
-
->>>>>>> c1731f4b53306c8c007ccd3e007f29a0f579647c
