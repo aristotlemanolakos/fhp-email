@@ -1347,24 +1347,16 @@ body.outlook p {
     table.button.small-expanded center {
       min-width: 0; } }
 
-/* CSS for hiding content in desktop/webmail clients */
-.only-small {
-  max-height: 0px;
-  font-size: 0;
-  display: none; }
-
-.xonly-small {
-  display: none; }
-
-@media only screen and (max-width: 40em) {
-  .xonly-small {
-    display: block !important; } }
-
 td.columns, td.column, th.columns, th.column {
   padding-bottom: 0 !important; }
 
+.image-row img {
+  width: 100%; }
+
 .view-in-browser {
-  margin-top: 30px; }
+  margin-top: 30px;
+  color: #ccc;
+  font-size: 10px; }
 
 .dark-bg {
   background-color: #080b15; }
@@ -1388,8 +1380,8 @@ td.columns, td.column, th.columns, th.column {
 .black-bg {
   background-color: #000000 !important; }
 
-.top-section-row {
-  margin-bottom: 5px; }
+.top-banner {
+  width: 620px; }
 
 .top-blurb .wrapper-inner {
   padding: 40px; }
@@ -1412,24 +1404,11 @@ td.columns, td.column, th.columns, th.column {
   font-size: 20px;
   font-weight: bold; }
 
-.artist-title-mobile {
-  margin: 20px 0px; }
-
-.more-btn-white {
-  margin: 20px 0; }
-
 .artist {
   background: white; }
-  .artist .artist-text {
-    height: 50px;
-    overflow: hidden;
-    text-overflow: ellipsis; }
   .artist .inner {
     background: white;
     padding: 10px; }
-  @media only screen and (max-width: 600px) {
-    .artist {
-      padding: 0 40px; } }
 
 @media only screen and (max-width: 40em) {
   .artist .artist-text {
@@ -1458,7 +1437,9 @@ td.columns, td.column, th.columns, th.column {
     font-size: 10px !important; } }
 
 .bottom-text-light a, .bottom-text-light div {
-  color: #a9a9a9; }
+  color: #a9a9a9;
+  font-weight: 300;
+  font-size: 14px; }
 
 .image-promo {
   width: 100% !important; }
