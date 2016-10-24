@@ -74,7 +74,6 @@ body {
   font-family: Helvetica, sans-serif;
   font-size: 20px;
   font-weight: bold;
-
 }
 
 .artist-title-mobile {
@@ -87,12 +86,25 @@ body {
 
 .artist {
   background: white;
+
+  .artist-text {
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
   .inner {
     background: white;
     padding: 10px;
   }
   @media only screen and (max-width: #{$global-breakpoint}) {
     padding: 0 40px;
+  }
+}
+
+@media only screen and (max-width: 40em) {
+  .artist .artist-text {
+    height: auto !important;
   }
 }
 
@@ -118,6 +130,12 @@ body {
   color: #000000;
 }
 
+@media only screen and (max-width: 40em) {
+  .bottom-text-light * {
+    font-size: 10px !important;
+  }
+}
+
 .bottom-text-light a, .bottom-text-light div {
   color: #a9a9a9;
 }
@@ -128,7 +146,7 @@ body {
 
 .social-share img {
   @media only screen and (max-width: #{$global-breakpoint}) {
-    height: 30px!important;
-    width: 30px!important;
+    height: 30px !important;
+    width: 30px !important;
   }
 }
