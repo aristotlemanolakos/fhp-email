@@ -12,14 +12,11 @@
 //   7. Menu
 //   8. Thumbnail
 
-
 // 1. Global
 // ---------
 
 $primary-color: #2199e8;
-//$secondary-color: #777777;
-$secondary-color: #ffffff;
-//$success-color: #3adb76;
+$secondary-color: #777777;
 $success-color: #3adb76;
 $warning-color: #ffae00;
 $alert-color: #ec5840;
@@ -28,11 +25,10 @@ $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
-//$white: green;
 $pre-color: #ff6908;
-$global-width: 580px;
+$global-width: 600px;
 $global-width-small: 95%;
-$global-gutter: 16px;
+$global-gutter: 0px;
 $body-background: $light-gray;
 $container-background: $white;
 $global-padding: 16px;
@@ -98,30 +94,25 @@ $stat-font-size: 40px;
 // ---------
 
 $button-padding: (
-  tiny: 4px 8px 4px 8px,
-  small: 5px 10px 5px 10px,
-  default: 8px 16px 8px 16px,
-  large: 10px 20px 10px 20px,
+        tiny: 4px 8px 4px 8px,
+        small: 6px 25px 6px 25px,
+        default: 10px 30px 10px 30px,
+        large: 10px 40px 10px 40px,
 );
 $button-font-size: (
-  tiny: 10px,
-  small: 12px,
-  default: 16px,
-  large: 20px,
+        tiny: 10px,
+        small: 16px,
+        default: 16px,
+        large: 20px,
 );
-$button-color: $white;
-//$button-color-alt: $medium-gray;
-$button-color-alt: yellow;
-$button-font-weight: bold;
-$button-margin: 0 0 $global-margin 0;
-//$button-background: $primary-color;
-$button-background:transparent;
-//$button-border: 2px solid $button-background;
-$button-border: 2px solid #ffffff;
+$button-color: white;
+$button-color-alt: $medium-gray;
+$button-font-weight: normal;
+$button-margin: 0;
+$button-background: black;
+$button-border: 1px solid white;
 $button-radius: $global-radius;
 $button-rounded: $global-rounded;
-
-
 
 // 6. Callout
 // ----------

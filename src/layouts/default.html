@@ -11,7 +11,16 @@
     <!--<base href="http://s3-us-west-2.amazonaws.com/codegophers/fhp/" />-->
     <title>{{subject}}</title>
   </head>
-  <body>
+    <body>
+
+      <style>
+/* Media query for displaying content in mobile email clients */
+@media only screen and (max-device-width: 480px) { 
+   .only-small { max-height: none !important; font-size: 12px !important; display: block !important; }
+}
+
+</style>
+
     <!-- <style> -->
     <span class="preheader">{{description}}</span>
     <table class="body">

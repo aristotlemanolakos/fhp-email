@@ -4,6 +4,19 @@
 $bg-color: #f2f2f2;
 $dark-color: #080b15;
 
+/* CSS for hiding content in desktop/webmail clients */
+.only-small { max-height: 0px; font-size: 0; display: none; }
+
+.xonly-small {
+  display: none;
+}
+
+@media only screen and (max-width: 40em) {
+  .xonly-small {
+    display: block !important;
+  }
+}
+
 td.columns, td.column, th.columns, th.column {
   padding-bottom: 0 !important;
 }
@@ -18,7 +31,7 @@ td.columns, td.column, th.columns, th.column {
 
 .logo-title {
 
-  font-family: 'Titillium Web';
+  font-family: 'Helvetica';
   font-size: 22px;
   font-weight: bold;
   text-transform: uppercase;
@@ -29,7 +42,7 @@ td.columns, td.column, th.columns, th.column {
 
 .logo-date {
 
-  font-family: 'Titillium Web';
+  font-family: 'Helvetica';
   font-size: 14px;
   margin-top: 5px;
 
@@ -46,7 +59,8 @@ body {
   background-color: #000000 !important;
 }
 
-.top-section {
+.top-section-row {
+  margin-bottom: 5px;
 }
 
 .top-blurb {
@@ -79,6 +93,7 @@ body {
 .artist-title-mobile {
   margin: 20px 0px;
 }
+
 
 .more-btn-white {
   margin: 20px 0;
@@ -149,4 +164,13 @@ body {
     height: 30px !important;
     width: 30px !important;
   }
+}
+
+table.button.alt table td {
+  border: 1px solid black;
+  background: white;
+}
+
+table.button.alt table td a {
+  color: black;
 }
